@@ -1,0 +1,78 @@
+body {
+  font: normal normal bold 16px/30px Source Han Sans JP;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  margin-top: 26px;
+  margin-left: 110px;
+}
+
+.header__left {
+  float: left;
+}
+
+.container {
+  width: 1240px;
+}
+
+
+.header__left h1 {
+  font-size: 20px;
+  color: #3B4043;
+}
+
+.header__left p {
+  font-size: 12px;
+  counter-reset: #707F89;
+  line-height: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #3B4043;
+}
+
+
+.header__rigth {
+  margin-top: 10px;
+  float: right;
+}
+
+.gnav li {
+  float: left;
+  font-size: 18px;
+  padding-right: 9px;
+  padding-left: 9px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.gnav__info {
+  color: #004BB1;
+  border: 2px solid #CDD6DD;
+  border-radius: 24px;
+  width: 148px;
+  height: 48px;
+  text-align: center;
+}
+
+
+.main__text {
+  width: 1240px;
+  height: 680px;
+  background-color: #F0F3F5;
+}
+
+.main__text h2 {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 298px;
+}
+
+.main__text p {
+  width: 760px;
+  display: flex;
+  text-align: center;
+}
